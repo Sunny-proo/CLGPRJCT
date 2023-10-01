@@ -51,16 +51,16 @@ gsap.from("section",{
 //     nav1.style.opacity=1
 //     nav2.style.opacity=0
 // }
-let clr=document.querySelector(".clr")
-setInterval(clrchange,3000)
-function clrchange(){
-    r=Math.random()*255
-    g=Math.random()*255
-    b=Math.random()*255
+// let clr=document.querySelector(".clr")
+// setInterval(clrchange,3000)
+// function clrchange(){
+//     r=Math.random()*255
+//     g=Math.random()*255
+//     b=Math.random()*255
   
-    clr.style.backgroundColor=`rgb(${r},${g},${b})`
+//     clr.style.backgroundColor=`rgb(${r},${g},${b})`
     
-}
+// }
 let nbtn=document.querySelector("#nbtn")
 let cbtn=document.querySelector("#cut")
 let npage=document.querySelector(".dpage")
