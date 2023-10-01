@@ -5,7 +5,7 @@ bt.addEventListener("click",()=>{console.log(bt.id)
         if(window.innerWidth>600){
                     c.scrollLeft+=bt.id=="left" ?-1000:1000}
                     else{
-                        c.scrollLeft+=bt.id=="left" ?-303:303
+                        c.scrollLeft+=bt.id=="left" ?-innerWidth+50:innerWidth-50
                     }
 }
 ))
